@@ -15,8 +15,8 @@ public class ExecutionController {
         this.executionService = executionService;
     }
 
-    @GetMapping(produces = "application/x-yaml")
-    public Execution create(@RequestParam(name = "executionId") Integer executionId) {
+    @GetMapping(produces = "application/yaml")
+    public Execution create(@RequestParam(name = "executionId") int executionId) {
 
         return executionService.readById(executionId);
     }
