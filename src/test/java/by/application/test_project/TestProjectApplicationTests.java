@@ -6,7 +6,6 @@ import by.application.test_project.domain.Status;
 import by.application.test_project.domain.Task;
 import by.application.test_project.repository.TaskRepositoryMock;
 import by.application.test_project.service.impl.ExecutionPipelineImpl;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
